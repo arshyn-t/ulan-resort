@@ -282,7 +282,7 @@ figure{
 	color: #ffffff;
 	font-weight: 500;
 	padding: 15px 40px;
-	background: #1b1c1e;
+	background: #17bd7d;
 	border-radius:0px;
 	outline: 1px solid transparent;
 	z-index:1;
@@ -8070,7 +8070,7 @@ img.lazy-image.loaded{
 	height: 114px;
 	padding: 27px 10px;
 	text-align: center;
-	background: #1b1c1e;
+	background: #0088cc;
 	color: #ffffff;
 	font-size: 40px;
 	line-height: 60px;
