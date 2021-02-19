@@ -460,6 +460,466 @@
             </div>
         </section>
 
+<!--Rooms Section-->
+<section class="rooms-section">
+    <div class="auto-container">
+        <!--Filters Section-->
+        <div class="filters-section filters-container">
+            <div class="form-box default-form filter-form wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
+                <form method="post" action="room-single.html">
+                    <div class="row clearfix">
+                        <div class="form-group col-xl-3 col-lg-6 col-md-6 col-sm-12">
+                            <div class="field-label">Дата заселения</div>
+                            <div class="field-inner">
+                                <input id="arrival-date" class="date-picker" type="text" name="field-name" value="Nov 02. 2019" placeholder="">
+                                <label for="arrival-date" class="icon flaticon-down-arrow"></label>
+                            </div>
+                        </div>
+                        <div class="form-group col-xl-3 col-lg-6 col-md-6 col-sm-12">
+                            <div class="field-label">Тип номера</div>
+                            <div class="field-inner">
+                                <select class="custom-select-box">
+                                    <option>Стандарт на двоих</option>
+                                    <option>Люкс на двоих</option>
+                                    <option>Стандарт на троих</option>
+                                    <option>Номер на четверых</option>
+                                    <option>Номер на пятерых</option>
+                                    <option>Номер на шестерых</option>
+                                    <option>Номер на восьмерых</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-group col-xl-3 col-lg-6 col-md-6 col-sm-12">
+                            <div class="field-label">Кол-во гостей</div>
+                            <div class="field-inner">
+                                <div class="check-sel-box">
+                                    <div class="check-sel-btn">
+                                        <span class="adult-info">2 Adults.</span>
+                                        <span class="child-info">1 Children</span>
+                                    </div>
+                                    <ul class="check-sel-droplist">
+                                        <li>
+                                            <div class="sel-title">Select Adults:</div>
+                                            <div class="clearfix">
+                                                <div class="radio-block adult-block"><input type="radio" name="adult-group" id="radio-1" value="1 Adults."><label for="radio-1">1</label></div>
+                                                <div class="radio-block adult-block"><input type="radio" name="adult-group" id="radio-2" value="2 Adults." checked=""><label for="radio-2">2</label></div>
+                                                <div class="radio-block adult-block"><input type="radio" name="adult-group" id="radio-3" value="3 Adults."><label for="radio-3">3</label></div>
+                                                <div class="radio-block adult-block"><input type="radio" name="adult-group" id="radio-4" value="4 Adults."><label for="radio-4">4</label></div>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="sel-title">Select Children:</div>
+                                            <div class="clearfix">
+                                                <div class="radio-block child-block"><input type="radio" name="child-group" id="radio-5" value="1 Children" checked=""><label for="radio-5">1</label></div>
+                                                <div class="radio-block child-block"><input type="radio" name="child-group" id="radio-6" value="2 Children"><label for="radio-6">2</label></div>
+                                                <div class="radio-block child-block"><input type="radio" name="child-group" id="radio-7" value="3 Children"><label for="radio-7">3</label></div>
+                                                <div class="radio-block child-block"><input type="radio" name="child-group" id="radio-8" value="4 Children"><label for="radio-8">4</label></div>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group col-xl-3 col-lg-6 col-md-6 col-sm-12">
+                            <div class="field-label e-label">&nbsp;</div>
+                            <div class="field-inner">
+                                <button class="theme-btn btn-style-one"><span class="btn-title">Отфильтровать</span></button>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="row clearfix">
+            
+            <div class="room-block-two col-lg-4 col-md-6 col-sm-12 wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
+                <div class="inner-box">
+                    <div class="image-box">
+                        <figure class="image"><a href="room-single.html"><img src="images/resource/featured-image-21.jpg" alt="" title=""></a></figure>
+                    </div>
+                    <div class="lower-box">
+                        <h4>Стандарт на двоих</h4>
+                        <div class="pricing clearfix">
+                            <div class="price">От <span>16 000₸</span></div>
+                            <div class="rating">
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                            </div>
+                        </div>
+
+                        <div class="text">Номер на двоих. Две раздельные кровати/совмещенные, ТВ, холодильник, шкаф, комоды и кондиционер.</div>
+                        <div class="link-box"><a href="room-single.html" class="theme-btn btn-style-three"><span class="btn-title">Забронировать</span></a></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="room-block-two col-lg-4 col-md-6 col-sm-12 wow fadeInUp" data-wow-delay="300ms" data-wow-duration="1500ms">
+                <div class="inner-box">
+                    <div class="image-box">
+                        <figure class="image"><a href="room-single.html"><img src="images/resource/featured-image-22.jpg" alt="" title=""></a></figure>
+                    </div>
+                    <div class="lower-box">
+                        <h4>Люкс на двоих</h4>
+                        <div class="pricing clearfix">
+                            <div class="price">От <span>24 000₸</span></div>
+                            <div class="rating">
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                            </div>
+                        </div>
+
+                        <div class="text">Комната на двоих. Big-size кровать. ТВ (220 каналов), кондиционер, Wi-Fi в номере, стол, стулья, халаты, тапочки, пледы включены в стоимость</div>
+                        <div class="link-box"><a href="room-single.html" class="theme-btn btn-style-three"><span class="btn-title">Забронировать</span></a></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="room-block-two col-lg-4 col-md-6 col-sm-12 wow fadeInUp" data-wow-delay="600ms" data-wow-duration="1500ms">
+                <div class="inner-box">
+                    <div class="image-box">
+                        <figure class="image"><a href="room-single.html"><img src="images/resource/featured-image-23.jpg" alt="" title=""></a></figure>
+                    </div>
+                    <div class="lower-box">
+                        <h4>Стандарт на троих</h4>
+                        <div class="pricing clearfix">
+                            <div class="price">От <span>24 000₸</span></div>
+                            <div class="rating">
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                            </div>
+                        </div>
+
+                        <div class="text">Номер рассчитан на 3 гостей. 3 раздельные кровати. ТВ, холодильник, шкаф, комоды и кондиционер.</div>
+                        <div class="link-box"><a href="room-single.html" class="theme-btn btn-style-three"><span class="btn-title">Забронировать</span></a></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="room-block-two col-lg-4 col-md-6 col-sm-12 wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
+                <div class="inner-box">
+                    <div class="image-box">
+                        <figure class="image"><a href="room-single.html"><img src="images/resource/featured-image-24.jpg" alt="" title=""></a></figure>
+                    </div>
+                    <div class="lower-box">
+                        <h4>Номер на четверых</h4>
+                        <div class="pricing clearfix">
+                            <div class="price">От <span>32 000₸</span></div>
+                            <div class="rating">
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                            </div>
+                        </div>
+
+                        <div class="text">Excepteur sint occaecat cupidatat dent in sun in culpa qui officia deserunt mollit anim id est.</div>
+                        <div class="link-box"><a href="room-single.html" class="theme-btn btn-style-three"><span class="btn-title">Check Availability</span></a></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="room-block-two col-lg-4 col-md-6 col-sm-12 wow fadeInUp" data-wow-delay="300ms" data-wow-duration="1500ms">
+                <div class="inner-box">
+                    <div class="image-box">
+                        <figure class="image"><a href="room-single.html"><img src="images/resource/featured-image-25.jpg" alt="" title=""></a></figure>
+                    </div>
+                    <div class="lower-box">
+                        <h4>Номер на пятерых</h4>
+                        <div class="pricing clearfix">
+                            <div class="price">От <span>40 000₸</span></div>
+                            <div class="rating">
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                            </div>
+                        </div>
+
+                        <div class="text">Excepteur sint occaecat cupidatat dent in sun in culpa qui officia deserunt mollit anim id est.</div>
+                        <div class="link-box"><a href="room-single.html" class="theme-btn btn-style-three"><span class="btn-title">Check Availability</span></a></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="room-block-two col-lg-4 col-md-6 col-sm-12 wow fadeInUp" data-wow-delay="600ms" data-wow-duration="1500ms">
+                <div class="inner-box">
+                    <div class="image-box">
+                        <figure class="image"><a href="room-single.html"><img src="images/resource/featured-image-26.jpg" alt="" title=""></a></figure>
+                    </div>
+                    <div class="lower-box">
+                        <h4>Номер на шестярых</h4>
+                        <div class="pricing clearfix">
+                            <div class="price">От <span>48 000₸</span></div>
+                            <div class="rating">
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                            </div>
+                        </div>
+
+                        <div class="text">Excepteur sint occaecat cupidatat dent in sun in culpa qui officia deserunt mollit anim id est.</div>
+                        <div class="link-box"><a href="room-single.html" class="theme-btn btn-style-three"><span class="btn-title">Check Availability</span></a></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="room-block-two col-lg-4 col-md-6 col-sm-12 wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
+                <div class="inner-box">
+                    <div class="image-box">
+                        <figure class="image"><a href="room-single.html"><img src="images/resource/featured-image-27.jpg" alt="" title=""></a></figure>
+                    </div>
+                    <div class="lower-box">
+                        <h4>Номер на восьмерых</h4>
+                        <div class="pricing clearfix">
+                            <div class="price">От <span>64 000₸</span></div>
+                            <div class="rating">
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                            </div>
+                        </div>
+
+                        <div class="text">Excepteur sint occaecat cupidatat dent in sun in culpa qui officia deserunt mollit anim id est.</div>
+                        <div class="link-box"><a href="room-single.html" class="theme-btn btn-style-three"><span class="btn-title">Check Availability</span></a></div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+    <!--Featured Section-->
+    <section class="featured-section">
+        <div class="pattern-top"></div>
+        <span class="dotted-pattern dotted-pattern-3"></span>
+        <span class="tri-pattern tri-pattern-3"></span>
+        <div class="auto-container">
+            <div class="featured-block">
+                <div class="row clearfix">
+                    <!--Text Column-->
+                    <div class="text-column col-lg-6 col-md-12 col-sm-12">
+                        <div class="inner wow fadeInRight" data-wow-delay="0ms" data-wow-duration="1500ms">
+                            <h3>Кафе</h3>
+                            <div class="text">Cовременное большое Кафе вместит Вас и Ваших родных и друзей! (средний чек по меню - 1500-2000тг.) <br>Завтраки подаются с 8:30 до 10:00 утра - мы, кстати, недавно обновили и теперь утренняя трапеза стала вкуснее, полезнее и сытнее!<br>
+                                Время работы с 8:30 до 21:00 (ежедневно, кроме пятницы и субботы - до 11 вечера)</div>
+                            <div class="link-box">
+                                <a href="about.html" class="theme-btn btn-style-one"><span class="btn-title">WhatsApp</span></a>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Image Column-->
+                    <div class="image-column col-lg-6 col-md-12 col-sm-12">
+                        <div class="inner wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
+                            <div class="image-box">
+                                <figure class="image"><a href="#"><img src="images/resource/featured-image-4.jpg" alt="" title=""></a></figure>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="featured-block alternate">
+                <div class="row clearfix">
+                    <!--Text Column-->
+                    <div class="text-column col-lg-6 col-md-12 col-sm-12">
+                        <div class="inner wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
+                            <h3>Бар</h3>
+                            <div class="text">Наши бармены приготовят для Вас широкий ассортимент напитков от кислородных, детских коктейлей до крепких, выдержанных временем, настоек. Попивая чай, можно заказать кальян на любой вкус!</div>
+                            <div class="link-box">
+                                <a href="about.html" class="theme-btn btn-style-one"><span class="btn-title">WhatsApp</span></a>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Image Column-->
+                    <div class="image-column col-lg-6 col-md-12 col-sm-12">
+                        <div class="inner wow fadeInRight" data-wow-delay="0ms" data-wow-duration="1500ms">
+                            <div class="image-box">
+                                <figure class="image"><a href="#"><img src="images/resource/featured-image-5.jpg" alt="" title=""></a></figure>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="featured-block">
+                <div class="row clearfix">
+                    <!--Text Column-->
+                    <div class="text-column col-lg-6 col-md-12 col-sm-12">
+                        <div class="inner wow fadeInRight" data-wow-delay="0ms" data-wow-duration="1500ms">
+                            <h3>Караоке</h3>
+                            <div class="text">Караоке-зал оборудован современной профессиональной караоке-системой (репертуар до новинок 2019 года). Вы тут уж точно не заскучаете! <br>
+                                Время работы с 9:00 до 2:00 (ежедневно, кроме пятницы и субботы - до последнего гостя)</div>
+                            <div class="link-box">
+                                <a href="about.html" class="theme-btn btn-style-one"><span class="btn-title">WhatsApp</span></a>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Image Column-->
+                    <div class="image-column col-lg-6 col-md-12 col-sm-12">
+                        <div class="inner wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
+                            <div class="image-box">
+                                <figure class="image"><a href="#"><img src="images/resource/featured-image-5-1.jpg" alt="" title=""></a></figure>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="featured-block alternate">
+                <div class="row clearfix">
+                    <!--Text Column-->
+                    <div class="text-column col-lg-6 col-md-12 col-sm-12">
+                        <div class="inner wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
+                            <h3>Детские игровые комнаты</h3>
+                            <div class="text">мы с любовью обустроили уютные помещения и создали атмосферу, где ваш ребенок весело проведет время за играми в самые модные новинки Play Station 4, а так же занимательные игрушки - настольные и подвижные игры с другими детьми - дартс, пинг-понг и т.д.<br>
+                                Время работы: с 9:00 до 21:00</div>
+                            <div class="link-box">
+                                <a href="about.html" class="theme-btn btn-style-one"><span class="btn-title">WhatsApp</span></a>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Image Column-->
+                    <div class="image-column col-lg-6 col-md-12 col-sm-12">
+                        <div class="inner wow fadeInRight" data-wow-delay="0ms" data-wow-duration="1500ms">
+                            <div class="image-box">
+                                <figure class="image"><a href="#"><img src="images/resource/featured-image-5.jpg" alt="" title=""></a></figure>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="featured-block">
+                <div class="row clearfix">
+                    <!--Text Column-->
+                    <div class="text-column col-lg-6 col-md-12 col-sm-12">
+                        <div class="inner wow fadeInRight" data-wow-delay="0ms" data-wow-duration="1500ms">
+                            <h3>SPA</h3>
+                            <div class="text">SPA "Ulan Hot Spring Resort" - вход 2000 тг./2 часа - солевая шахта, настоящая русская баня (80-90 градусов), а в перерывах можно полежать или посидеть в "чайной комнате", подготавливаясь к сеансу лечебно-оздоровительного массажа или терапии распаривания всего тела в фитобочке.</div>
+                            <div class="link-box">
+                                <a href="about.html" class="theme-btn btn-style-one"><span class="btn-title">WhatsApp</span></a>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Image Column-->
+                    <div class="image-column col-lg-6 col-md-12 col-sm-12">
+                        <div class="inner wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
+                            <div class="image-box">
+                                <figure class="image"><a href="#"><img src="images/resource/featured-image-5-2.jpg" alt="" title=""></a></figure>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!--Video Section-->
+    <section class="video-section">
+        <div class="image-layer" style="background-image: url(images/background/image-1.jpg);"></div>
+        <div class="auto-container">
+            <div class="content-box wow zoomIn" data-wow-delay="0ms" data-wow-duration="2000ms">
+                <h1>Верьте не нам, верьте своим глазам.</h1>
+                <div class="play-link"><a href="https://www.youtube.com/watch?v=Get7rqXYrbQ" class="lightbox-image"><span class="icon flaticon-play-button-3"></span></a></div>
+            </div>
+        </div>
+    </section>
+
+    <!--Testimonials Section-->
+    <section class="testimonials-section">
+        <span class="dotted-pattern dotted-pattern-3"></span>
+        <span class="tri-pattern tri-pattern-2"></span>
+        <div class="auto-container">
+            <div class="sec-title centered">
+                <h2>Наши гости</h2>
+                <div class="lower-text">Ulan Hot Spring Resort - место, где отдыхаешь душой!</div>
+            </div>
+
+            <div class="carousel-box">
+                <div class="testimonial-carousel owl-theme owl-carousel">
+                    <div class="testimonial-block">
+                        <div class="inner">
+                            <div class="content-box">
+                                <div class="content">
+                                    <div class="quote-icon"><span class="flaticon-quote-1"></span></div>
+                                    <div class="text">Очень дружелюбное место, идеальное для выходных всей семьей. Отличный уровень сервиса и приятная атмосфера.</div>
+                                </div>
+                            </div>
+                            
+                            <div class="info">
+                                <div class="image"><img src="images/resource/testi-thumb-1.jpg" alt=""></div>
+                                <div class="name">@yuliaskendarova</div>
+                                <div class="designation">Алматы, Казахстан</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-block">
+                        <div class="inner">
+                            <div class="content-box">
+                                <div class="content">
+                                    <div class="quote-icon"><span class="flaticon-quote-1"></span></div>
+                                    <div class="text">Мы приехали большой компанией друзей на выходные и суперкруто провели время. Уже договорились вернуться сюда еще раз такой же компанией и повторить!</div>
+                                </div>
+                            </div>
+                            
+                            <div class="info">
+                                <div class="image"><img src="images/resource/testi-thumb-2.jpg" alt=""></div>
+                                <div class="name">Сабина</div>
+                                <div class="designation">Алматы, Казахстан</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-block">
+                        <div class="inner">
+                            <div class="content-box">
+                                <div class="content">
+                                    <div class="quote-icon"><span class="flaticon-quote-1"></span></div>
+                                    <div class="text">Спасибо Вам за ВСЕ!!! Отлично прошла Новогодняя ночь, шоу программа, фейрверки. Спасибо за подарки! Процветания вам и всего наилучшего. Мы к вам еще приедем!</div>
+                                </div>
+                            </div>
+                            
+                            <div class="info">
+                                <div class="image"><img src="images/resource/testi-thumb-3.jpg" alt=""></div>
+                                <div class="name">@kusbekova_56</div>
+                                <div class="designation">Алматы, Казахстан</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-block">
+                        <div class="inner">
+                            <div class="content-box">
+                                <div class="content">
+                                    <div class="quote-icon"><span class="flaticon-quote-1"></span></div>
+                                    <div class="text">Решили с друзьями спонтанно отдохнуть, забронировали все онлайн, иии все прошло классно.</div>
+                                </div>
+                            </div>
+                            
+                            <div class="info">
+                                <div class="image"><img src="images/resource/testi-thumb-1.jpg" alt=""></div>
+                                <div class="name">@arshyn.t</div>
+                                <div class="designation">Алматы, Казахстан</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
 	<!--About Section-->
     <section class="about-section">
         <div class="pattern-bottom"></div>
@@ -494,283 +954,9 @@
         </div>
     </section>
 
-    <!--Facts Section-->
-    <section class="facts-section">
-        <span class="dotted-pattern dotted-pattern-3"></span>
-        <div class="left-bottom-image"><img src="images/resource/chair-umbrella.png" alt="" title=""></div>
-        <div class="auto-container">
-            <div class="row clearfix">
-                <!--Title Column-->
-                <div class="title-column col-xl-7 col-lg-6 col-md-12 col-sm-12">
-                    <div class="inner">
-                        <div class="sec-title">
-                            <h2>Always Ready <br>to Take Challange</h2>
-                            <div class="lower-text">Lorem ipsum dolor sit consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore dolore magna aliqua. enim ad minim veniam quis nostrud exercitation.</div>
-                        </div>
-                        
-                    </div>
-                </div>
-                <!--Facts Column-->
-                <div class="facts-column col-xl-5 col-lg-6 col-md-12 col-sm-12">
-                    <div class="inner">
-                        <div class="facts">
-                            <div class="fact-block">
-                                <div class="fact-inner">
-                                    <div class="fact-count wow zoomInStable" data-wow-delay="0ms" data-wow-duration="2000ms"><div class="count-box"><span class="count-text" data-stop="25" data-speed="2000">0</span>+</div></div>
-                                    <h4>Years Exp.</h4>
-                                    <div class="text">Excepteur sint occaecat cupidatat proi dent in sunt.</div>
-                                </div>
-                            </div>
-                            <div class="fact-block">
-                                <div class="fact-inner">
-                                    <div class="fact-count wow zoomInStable" data-wow-delay="0ms" data-wow-duration="2000ms"><div class="count-box"><span class="count-text" data-stop="712" data-speed="5000">0</span></div></div>
-                                    <h4>Project Done</h4>
-                                    <div class="text">Excepteur sint occaecat cupidatat proi dent in sunt.</div>
-                                </div>
-                            </div>
-                            <div class="fact-block">
-                                <div class="fact-inner">
-                                    <div class="fact-count wow zoomInStable" data-wow-delay="0ms" data-wow-duration="2000ms"><div class="count-box"><span class="count-text" data-stop="310" data-speed="4000">0</span></div></div>
-                                    <h4>Awards Win</h4>
-                                    <div class="text">Excepteur sint occaecat cupidatat proi dent in sunt.</div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-    </section>
-
     <div class="dashed-separator"><div class="auto-container"><span></span></div></div>
 
 
-    <!--Featured Section-->
-    <section class="featured-section">
-        <div class="pattern-top"></div>
-        <span class="dotted-pattern dotted-pattern-3"></span>
-        <span class="tri-pattern tri-pattern-3"></span>
-        <div class="auto-container">
-            <div class="featured-block">
-                <div class="row clearfix">
-                    <!--Text Column-->
-                    <div class="text-column col-lg-6 col-md-12 col-sm-12">
-                        <div class="inner wow fadeInRight" data-wow-delay="0ms" data-wow-duration="1500ms">
-                            <h3>Discover a New <br>Look of Luxury Hotel.</h3>
-                            <div class="text">Lorem ipsum dolor sit amet constur adipisicing elit sed do eiusmtem por incid  dolore magna aliqu enim ad minim veniam quis nostrud exer cittion ullamco laboris nisi ut aliquip excepteur.</div>
-                            <div class="link-box">
-                                <a href="about.html" class="theme-btn btn-style-one"><span class="btn-title">Read More</span></a>
-                            </div>
-                        </div>
-                    </div>
-                    <!--Image Column-->
-                    <div class="image-column col-lg-6 col-md-12 col-sm-12">
-                        <div class="inner wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
-                            <div class="image-box">
-                                <figure class="image"><a href="#"><img src="images/resource/featured-image-4.jpg" alt="" title=""></a></figure>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="featured-block alternate">
-                <div class="row clearfix">
-                    <!--Text Column-->
-                    <div class="text-column col-lg-6 col-md-12 col-sm-12">
-                        <div class="inner wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
-                            <h3>Finest Beatch Resort <br>in Santorini.</h3>
-                            <div class="text">Lorem ipsum dolor sit amet constur adipisicing elit sed do eiusmtem por incid  dolore magna aliqu enim ad minim veniam quis nostrud exer cittion ullamco laboris nisi ut aliquip excepteur.</div>
-                            <div class="link-box">
-                                <a href="about.html" class="theme-btn btn-style-one"><span class="btn-title">Discover Now</span></a>
-                            </div>
-                        </div>
-                    </div>
-                    <!--Image Column-->
-                    <div class="image-column col-lg-6 col-md-12 col-sm-12">
-                        <div class="inner wow fadeInRight" data-wow-delay="0ms" data-wow-duration="1500ms">
-                            <div class="image-box">
-                                <figure class="image"><a href="#"><img src="images/resource/featured-image-5.jpg" alt="" title=""></a></figure>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!--Video Section-->
-    <section class="video-section">
-        <div class="image-layer" style="background-image: url(images/background/image-1.jpg);"></div>
-        <div class="auto-container">
-            <div class="content-box wow zoomIn" data-wow-delay="0ms" data-wow-duration="2000ms">
-                <h1>See The Experience Before You Feel it.</h1>
-                <div class="play-link"><a href="https://www.youtube.com/watch?v=Get7rqXYrbQ" class="lightbox-image"><span class="icon flaticon-play-button-3"></span></a></div>
-            </div>
-        </div>
-    </section>
-
-    <!--Testimonials Section-->
-    <section class="testimonials-section">
-        <span class="dotted-pattern dotted-pattern-3"></span>
-        <span class="tri-pattern tri-pattern-2"></span>
-        <div class="auto-container">
-            <div class="sec-title centered">
-                <h2>What People Say?</h2>
-                <div class="lower-text">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem.</div>
-            </div>
-
-            <div class="carousel-box">
-                <div class="testimonial-carousel owl-theme owl-carousel">
-                    <div class="testimonial-block">
-                        <div class="inner">
-                            <div class="content-box">
-                                <div class="content">
-                                    <div class="quote-icon"><span class="flaticon-quote-1"></span></div>
-                                    <div class="text">Lorem ipsum dolor sit amet consectetur adipis elit eiusmod tempor incidunt sed labore dolore magna.</div>
-                                </div>
-                            </div>
-                            
-                            <div class="info">
-                                <div class="image"><img src="images/resource/testi-thumb-1.jpg" alt=""></div>
-                                <div class="name">Mark Adams</div>
-                                <div class="designation">Designer</div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="testimonial-block">
-                        <div class="inner">
-                            <div class="content-box">
-                                <div class="content">
-                                    <div class="quote-icon"><span class="flaticon-quote-1"></span></div>
-                                    <div class="text">Lorem ipsum dolor sit amet consectetur adipis elit eiusmod tempor incidunt sed labore dolore magna.</div>
-                                </div>
-                            </div>
-                            
-                            <div class="info">
-                                <div class="image"><img src="images/resource/testi-thumb-2.jpg" alt=""></div>
-                                <div class="name">Fiona Edwards</div>
-                                <div class="designation">Developer</div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="testimonial-block">
-                        <div class="inner">
-                            <div class="content-box">
-                                <div class="content">
-                                    <div class="quote-icon"><span class="flaticon-quote-1"></span></div>
-                                    <div class="text">Lorem ipsum dolor sit amet consectetur adipis elit eiusmod tempor incidunt sed labore dolore magna.</div>
-                                </div>
-                            </div>
-                            
-                            <div class="info">
-                                <div class="image"><img src="images/resource/testi-thumb-3.jpg" alt=""></div>
-                                <div class="name">Dominic Allen</div>
-                                <div class="designation">Designer</div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="testimonial-block">
-                        <div class="inner">
-                            <div class="content-box">
-                                <div class="content">
-                                    <div class="quote-icon"><span class="flaticon-quote-1"></span></div>
-                                    <div class="text">Lorem ipsum dolor sit amet consectetur adipis elit eiusmod tempor incidunt sed labore dolore magna.</div>
-                                </div>
-                            </div>
-                            
-                            <div class="info">
-                                <div class="image"><img src="images/resource/testi-thumb-1.jpg" alt=""></div>
-                                <div class="name">Mark Adams</div>
-                                <div class="designation">Designer</div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="testimonial-block">
-                        <div class="inner">
-                            <div class="content-box">
-                                <div class="content">
-                                    <div class="quote-icon"><span class="flaticon-quote-1"></span></div>
-                                    <div class="text">Lorem ipsum dolor sit amet consectetur adipis elit eiusmod tempor incidunt sed labore dolore magna.</div>
-                                </div>
-                            </div>
-                            
-                            <div class="info">
-                                <div class="image"><img src="images/resource/testi-thumb-2.jpg" alt=""></div>
-                                <div class="name">Fiona Edwards</div>
-                                <div class="designation">Developer</div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="testimonial-block">
-                        <div class="inner">
-                            <div class="content-box">
-                                <div class="content">
-                                    <div class="quote-icon"><span class="flaticon-quote-1"></span></div>
-                                    <div class="text">Lorem ipsum dolor sit amet consectetur adipis elit eiusmod tempor incidunt sed labore dolore magna.</div>
-                                </div>
-                            </div>
-                            
-                            <div class="info">
-                                <div class="image"><img src="images/resource/testi-thumb-3.jpg" alt=""></div>
-                                <div class="name">Dominic Allen</div>
-                                <div class="designation">Designer</div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="testimonial-block">
-                        <div class="inner">
-                            <div class="content-box">
-                                <div class="content">
-                                    <div class="quote-icon"><span class="flaticon-quote-1"></span></div>
-                                    <div class="text">Lorem ipsum dolor sit amet consectetur adipis elit eiusmod tempor incidunt sed labore dolore magna.</div>
-                                </div>
-                            </div>
-                            
-                            <div class="info">
-                                <div class="image"><img src="images/resource/testi-thumb-1.jpg" alt=""></div>
-                                <div class="name">Mark Adams</div>
-                                <div class="designation">Designer</div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="testimonial-block">
-                        <div class="inner">
-                            <div class="content-box">
-                                <div class="content">
-                                    <div class="quote-icon"><span class="flaticon-quote-1"></span></div>
-                                    <div class="text">Lorem ipsum dolor sit amet consectetur adipis elit eiusmod tempor incidunt sed labore dolore magna.</div>
-                                </div>
-                            </div>
-                            
-                            <div class="info">
-                                <div class="image"><img src="images/resource/testi-thumb-2.jpg" alt=""></div>
-                                <div class="name">Fiona Edwards</div>
-                                <div class="designation">Developer</div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="testimonial-block">
-                        <div class="inner">
-                            <div class="content-box">
-                                <div class="content">
-                                    <div class="quote-icon"><span class="flaticon-quote-1"></span></div>
-                                    <div class="text">Lorem ipsum dolor sit amet consectetur adipis elit eiusmod tempor incidunt sed labore dolore magna.</div>
-                                </div>
-                            </div>
-                            
-                            <div class="info">
-                                <div class="image"><img src="images/resource/testi-thumb-3.jpg" alt=""></div>
-                                <div class="name">Dominic Allen</div>
-                                <div class="designation">Designer</div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-    </section>
 
     <!--News Section-->
     <section class="news-section">
