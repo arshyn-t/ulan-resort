@@ -2,7 +2,7 @@
 
 // Define some constants
 define( "RECIPIENT_NAME", "Ulan Hot Spring" );
-define( "RECIPIENT_EMAIL", "arshyn.taizhanov@gmail.com" );
+define( "RECIPIENT_EMAIL", "manager@ulan-resort.kz" );
 
 
 // Read the form values
